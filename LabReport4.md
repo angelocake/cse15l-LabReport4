@@ -15,10 +15,10 @@ Here is an example:
 3. press the `<enter>` button
 ![ssh](https://github.com/angelocake/cse15l-LabReport4/assets/130005453/2689364c-c8e5-4b07-8d11-1e059ef9b0f9)
 
-3. Type in your password for the `ieng6` email
-4. press the `<enter>`
+4. Type in your password for the `ieng6` email
+5. press the `<enter>`
 Note: Password will give no indication of what you typed so be careful. Also, if correct password it will look similar to the image below.
-![correct password](https://github.com/angelocake/cse15l-LabReport4/assets/130005453/e54dedbb-3e67-4c1d-ad4c-3c63242bab8c)
+![correct password](https://github.com/angelocake/cse15l-LabReport4/assets/130005453/2d250752-54e7-46f7-b4e3-7140c4684631)
 
 ### Step 5 (Clone your fork of the repository from your Github account)
 1. Click this link to get code [github repository](https://github.com/ucsd-cse15l-s23/lab7)
