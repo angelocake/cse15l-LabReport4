@@ -41,15 +41,69 @@ Below is an example terminal making it's way to the Lab7 repository (red numbers
 
 
 ### Step 6 (Testing and showing failure)
+1. Make sure that you are in the Lab7 directory (can be done in a simple `ls` command then `<enter>` to make sure you are in the right directory. Alternatively the `pwd` can also be used)
+2. In the terminal type `sh ./tests.sh`
+3. Press `<enter>`
+4. Look at bottom left where it shows results and note that it says that the program ran 2 tests but one of them happened to fail
+
+![Test1](https://github.com/angelocake/cse15l-LabReport4/assets/130005453/c2ab67af-87c0-4452-95f5-b4e68a54ed8a)
+
 
 ### Step 7 (Editting ListExamples.java)
+1. Type `vim ListExample.java` into the terminal
+2. Press `<enter>`
+3. Type `?ind` and then press `<enter>`
+Note: The image below is the result of doing the vim command(step 1) and sets up step 3 
+**![vim-step1thru3](https://github.com/angelocake/cse15l-LabReport4/assets/130005453/0adfbb39-fd8f-4e1d-810c-f3ad74fa4c36)
+4. Press the `e` button (goes to the end of the current word)
+5. Press `r` (gets ready to replace the current character)
+6. Press `2` (will replace the number 1 with the number 2)
+![changing 1to2](https://github.com/angelocake/cse15l-LabReport4/assets/130005453/ff296f70-9fd5-43f7-b2dc-ac007831e1d6)
+7. Type `:wq` (command to save and exit the current vim file)
+8. Press `<enter>` (if done correctly, should exit you out of the ListExample.java file)
+![save and exit](https://github.com/angelocake/cse15l-LabReport4/assets/130005453/8db3f9c0-52cd-4385-90bb-82a6fd472c64)
+
 
 ### Step 8 (Retesting and showing success)
+1. In the terminal type `sh ./tests.sh`
+2. Press `<enter>`
+Note: this should compile and rerun the tests with the update we made in mind.
+3. Look at bottom left where it shows results and note that it says that the program ran 2 tests and that both turned out ok/passed.
+
+The image below shows how your terminal should look if the tests pass
+![New test](https://github.com/angelocake/cse15l-LabReport4/assets/130005453/1ff67146-6ffc-40fe-ba27-9908c7c906e3)
+
 
 ### Step 9 (Commit and push changes to Github)
+1. Type `git add ListExamples.java` and press `<enter>`   (Should prepare to push your edit to github)
+2. Type `git commit -m "fixed ListExamples.java"` and press `<enter>` (Will push your edit to github)
+3. To ensure that you updated github type `git status` and press `<enter>` because it will show the files that are not updated on github
+(basically just read the highlighted red files to ensure that ListExamples.java is not there. Note: if you see ListExamples.class in red it is perfectly fine.)
+![Push github](https://github.com/angelocake/cse15l-LabReport4/assets/130005453/4c42cb75-8f79-487b-867d-1c7442ed42c6)
 
-For each numbered step starting right after the timer (so steps 4-9), 
-take a screenshot, and write down exactly which keys you pressed to get 
-to that step. For special characters like <enter> or <tab>, write them 
-  in angle brackets with code formatting. Then, summarize the commands 
-  you ran and what the effect of those keypresses were.
+
+
+Then, summarize the commands you ran and what the effect of those keypresses were.
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
